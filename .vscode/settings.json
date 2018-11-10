@@ -1,0 +1,8 @@
+{
+    "typescript.format.insertSpaceAfterTypeAssertion": true,
+    "files.autoSave": "onFocusChange",
+    "editor.wordWrap": "bounded",
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', Fira code",
+    
+    "editor.fontLigatures": true,
+}
