@@ -1,15 +1,14 @@
-import React, { Component } from "react";
- 
-class Contact extends Component {
-  render() {
-    return (
-      <div>
-        <h2>GOT QUESTIONS?</h2>
-        <p>The easiest thing to do is send an email to <a href="mailto:eitah@cars.com">my Email</a>.
-        </p>
-      </div>
-    );
-  }
+import React, { Component } from 'react'
+
+export default class Contact extends Component {
+  render() {
+    return (
+      <div>
+        <h2>GOT QUESTIONS?</h2>
+        <p>The easiest thing to send me a note
+            at my email: <a href="mailto:elijahbit@gmail.com?Subject=Hello%20from%20your%20website" target="_top">Send Mail</a>
+        </p>
+      </div>
+    )
+  }
 }
- 
-export default Contact;
